@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_button_event" id="T0V%nxPo1ifK@WwnYuc4" x="-500" y="-126"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="playMelody" id="C_}%3`^{TLq?.5E]8NS`"><value name="melody"><shadow type="melody_editor" id="9_BdGY2bV]h=Rl+96@3;"><field name="melody">"C5 B A A C5 A B C5 "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="oclhff@RA2pO]wF*1MeD"><mutation min="40" max="500" label="Tempo" precision="0"/><field name="SLIDER">120</field></shadow></value><next><block type="device_show_leds" id="s4KSkiJ=0#E3_P:XD,=r"><field name="LEDS">`
+        # # # # # 
+        . # . . # 
+        # # # . # 
+        # . . . # 
+        # . # # #
+        `</field><next><block type="device_show_leds" id="tl=z|2_%Il^X002D@|?c"><field name="LEDS">`
+        # # # # # 
+        . . . . # 
+        . . # . # 
+        # . . . # 
+        # # # # #
+        `</field><next><block type="device_print_message" id="7oEEx[B*u;p#5-c.Ao,d"><value name="text"><shadow type="text" id="H`+pM]%z-A/4400dn_Fl"><field name="TEXT">VALENTINA</field></shadow></value><next><block type="basic_show_icon" id="YKlQi5A!0Xc|_|L9pdBK"><field name="i">IconNames.Heart</field></block></next></block></next></block></next></block></next></block></statement></block><block type="device_forever" id="J3kUHety~?a2Zv;S:gUt" x="75" y="-27"/><block type="pxt-on-start" id=";`Dt6Ee-r$C@~clVRT6j" x="0" y="0"/><block type="device_show_number" id="}^@Og|i)LWW`,Grx0~Qk" disabled="true" x="-102" y="328"><value name="number"><shadow type="math_number" id="7d^Q}=p4zJhm[.6dkDTN" disabled="true"><field name="NUM">4</field></shadow></value></block><block type="device_temperature" id=".qeKS*Rn3j5+#iY;jgWQ" disabled="true" x="-63" y="455"/><block type="basic_show_arrow" id="}*!?Cco0]T=!x^H;cTC7" disabled="true" x="207" y="442"><value name="i"><shadow type="device_arrow" id="GU@?1K[Qr=RO1D[:*RWH" disabled="true"><field name="arrow">ArrowNames.North</field></shadow></value></block></xml>
